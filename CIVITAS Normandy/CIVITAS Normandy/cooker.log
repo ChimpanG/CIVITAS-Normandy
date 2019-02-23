@@ -1,0 +1,12 @@
+Starting AssetCooker...
+OPENCL ACCELERATION IS NOT AVAILABLE!  Your cooks will be SLOOOOWWW!  Please inform an engineer.
+XLP cook starting...
+\\WDMYCLOUD\Sam\Projects\Modding\Civ VI\IdeaProjects\GitHub\CIVITAS-Normandy\CIVITAS Normandy\CIVITAS Normandy\XLPs\Units.xlp
+Opened output file: C:\Users\Sam\Documents\My Games\Sid Meier's Civilization VI\Mods\CIVITAS Normandy\Platforms\MacOS\BLPs/units/units.blp    For XLP: '\\WDMYCLOUD\Sam\Projects\Modding\Civ VI\IdeaProjects\GitHub\CIVITAS-Normandy\CIVITAS Normandy\CIVITAS Normandy\XLPs\Units.xlp'
+Starting 'units/units'
+Load finished for: 'units/units' in 1.290 seconds
+Cook finished for: 'units/units' in 0.003 seconds
+Disk write finished for: 'units/units' in 0.040 seconds
+Cleanup finished for: 'units/units' in 0.015 seconds
+XLP cook completed with success.
+Cook completed in 1.392 seconds

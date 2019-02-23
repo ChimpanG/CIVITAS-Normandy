@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# ModBuddy Solution File, Format Version 12.00
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS Normandy", "CIVITAS Normandy\CIVITAS Normandy.civ6proj", "{5FBE232C-E508-4A14-8387-ED9DE3BA4C92}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS Rollo", "CIVITAS Rollo\CIVITAS Rollo.civ6proj", "{011545B0-E830-45F3-93A9-83705F29F657}"
+EndProject
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "CIVITAS William", "CIVITAS William\CIVITAS William.civ6proj", "{1093822D-9BE5-4ED2-8FAA-849A0321887F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Civ6 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FBE232C-E508-4A14-8387-ED9DE3BA4C92}.Default|Civ6.ActiveCfg = Default|Civ6
+		{5FBE232C-E508-4A14-8387-ED9DE3BA4C92}.Default|Civ6.Build.0 = Default|Civ6
+		{011545B0-E830-45F3-93A9-83705F29F657}.Default|Civ6.ActiveCfg = Default|Civ6
+		{011545B0-E830-45F3-93A9-83705F29F657}.Default|Civ6.Build.0 = Default|Civ6
+		{1093822D-9BE5-4ED2-8FAA-849A0321887F}.Default|Civ6.ActiveCfg = Default|Civ6
+		{1093822D-9BE5-4ED2-8FAA-849A0321887F}.Default|Civ6.Build.0 = Default|Civ6
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

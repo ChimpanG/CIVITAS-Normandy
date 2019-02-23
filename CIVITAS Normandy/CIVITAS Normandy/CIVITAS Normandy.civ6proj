@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>CIVITAS [ICON_GOVERNMENT] Normandy</Name>
+    <Guid>3e9790d7-30c0-42c9-b780-b663da7ae5af</Guid>
+    <ProjectGuid>5fbe232c-e508-4a14-8387-ed9de3ba4c92</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Adds Normandy as a playable civilization.</Teaser>
+    <Description>Adds Normandy as a playable civilization under William and Rollo.</Description>
+    <Authors>ChimpanG</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <ModProperties>
+      <CompatibleVersions>2.0</CompatibleVersions>
+    </ModProperties>
+    <AssemblyName>CIVITAS Normandy</AssemblyName>
+    <RootNamespace>CIVITAS Normandy</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateText id="Normandy_Setup_Text"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/Normandy_Localisation.sql</File></UpdateText><UpdateIcons id="Normandy_Setup_Icons"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/Normandy_Icons.sql</File></UpdateIcons><UpdateDatabase id="Normandy_Setup_Validation"><Properties><LoadOrder>1</LoadOrder></Properties><File>Core/Normandy_Validation.sql</File></UpdateDatabase><UpdateColors id="Normandy_Setup_Colors"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/Normandy_Colors.sql</File><File>Core/Normandy_Validation.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Normandy_DB"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/Normandy_Civilization.sql</File><File>Core/Normandy_UA.sql</File><File>Core/Normandy_UI.sql</File><File>Core/Normandy_UU.sql</File></UpdateDatabase><UpdateText id="Normandy_Text"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/Normandy_Localisation.sql</File></UpdateText><UpdateIcons id="Normandy_Icons"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/Normandy_Icons.sql</File></UpdateIcons><UpdateArt id="ArtDep"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Normandy_Validation"><Properties><LoadOrder>1</LoadOrder></Properties><File>Core/Normandy_Validation.sql</File></UpdateDatabase><UpdateColors id="Normandy_Colors"><Properties><LoadOrder>100</LoadOrder></Properties><File>Core/Normandy_Colors.sql</File><File>Core/Normandy_Validation.sql</File></UpdateColors></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="William" /><Criteria id="Rollo" /><Criteria id="XP1"><GameModeInUse><GameCoreInUse>Expansion1</GameCoreInUse></GameModeInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\StrategicView.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Normandy_Civilization.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Normandy_Colors.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Normandy_Icons.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Normandy_Localisation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Normandy_UA.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Normandy_UI.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Normandy_UU.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Normandy_Validation.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Core\Normandy_ModSupport.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\StrategicView.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\TileBase.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Units.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Core\" />
+    <Folder Include="XLPs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
