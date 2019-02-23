@@ -4,9 +4,9 @@ XLP cook starting...
 \\WDMYCLOUD\Sam\Projects\Modding\Civ VI\IdeaProjects\GitHub\CIVITAS-Normandy\CIVITAS Normandy\CIVITAS William\XLPs\Units.xlp
 Opened output file: C:\Users\Sam\Documents\My Games\Sid Meier's Civilization VI\Mods\CIVITAS William\Platforms\MacOS\BLPs/units/units.blp    For XLP: '\\WDMYCLOUD\Sam\Projects\Modding\Civ VI\IdeaProjects\GitHub\CIVITAS-Normandy\CIVITAS Normandy\CIVITAS William\XLPs\Units.xlp'
 Starting 'units/units'
-Load finished for: 'units/units' in 5.656 seconds
+Load finished for: 'units/units' in 2.409 seconds
 Cook finished for: 'units/units' in 0.001 seconds
-Disk write finished for: 'units/units' in 0.034 seconds
-Cleanup finished for: 'units/units' in 0.011 seconds
+Disk write finished for: 'units/units' in 0.026 seconds
+Cleanup finished for: 'units/units' in 0.010 seconds
 XLP cook completed with success.
-Cook completed in 5.741 seconds
+Cook completed in 2.488 seconds
